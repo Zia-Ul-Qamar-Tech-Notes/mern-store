@@ -49,7 +49,13 @@ connectToDB();
 const server = express();
 
 // middlewares
-// server.use(cors({ origin: process.env.ORIGIN, credentials: true }));
+server.use(
+  cors({
+    origin: "*", // Allow all origins for testing (restrict in production)
+    credentials: true,
+    methods: ["GET", "POST", "PATCH", "DELETE"],
+  })
+);
 server.use(express.json());
 server.use(cookieParser());
 server.use(morgan("tiny"));
