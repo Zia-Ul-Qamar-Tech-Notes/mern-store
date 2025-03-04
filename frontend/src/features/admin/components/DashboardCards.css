@@ -1,0 +1,100 @@
+.dashboard-container {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Earnings Card */
+  .earning-card {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    width: 300px;
+    height: 120px;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  
+  .earning-amount {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .earning-label {
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+  /* Pie Chart Card */
+  .chart-card {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chart-value {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .chart-legend {
+    margin-top: 10px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .legend-color {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  
+  /* Small Cards */
+  .small-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .small-card {
+    width: 180px;
+    height: 80px;
+    background: #f0f4f8;
+    color: #333;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .small-card-value {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .small-card-label {
+    font-size: 14px;
+    opacity: 0.7;
+  }
+  
