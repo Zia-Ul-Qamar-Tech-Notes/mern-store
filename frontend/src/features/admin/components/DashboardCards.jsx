@@ -62,15 +62,15 @@ export const DashboardCards = () => {
       </div>
       <div className="dashboard-container">
         {/* Total Orders */}
-        <div className="card earning-card">
+        <Link to={"/admin/orders"} className="card earning-card">
           <p className="earning-amount">{totalIncome.totalOrders}</p>
           <span className="earning-label">Total Orders</span>
-        </div>
+        </Link>
 
         {/* Total Income */}
         <div className="card earning-card">
           <p className="earning-amount">{totalIncome.totalPrice}</p>
-          <span className="earning-label">Total Price</span>
+          <span className="earning-label">Total Income</span>
         </div>
       </div>
     </>
